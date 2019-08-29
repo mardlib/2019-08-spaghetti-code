@@ -69,6 +69,8 @@ function main(): void
         exit(1);
     }
 
+
+
     $m = (($month - 2 - 1) + 12) % 12 + 1; // this is because of the modulo
     $c = substr($year, 0, 2);
     if ($m >= 11) {
